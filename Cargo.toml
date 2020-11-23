@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Ryan Brigden <rpb@hey.com>"]
 edition = "2018"
 build = "build.rs"
+license = "MIT"
+keywords = ["computer-vision"]
+categories = ["computer-vision", "multimedia::video", "multimedia::images", "api-bindings"]
+readme = "README.md"
 
 [lib]
 name = "rustflow"
