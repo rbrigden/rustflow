@@ -1,0 +1,17 @@
+[package]
+name = "rustflow"
+version = "0.1.0"
+authors = ["Ryan Brigden <rpb@hey.com>"]
+edition = "2018"
+build = "build.rs"
+
+[lib]
+name = "rustflow"
+path = "lib/lib.rs"
+
+[build-dependencies]
+bindgen = "*"
+cc = "*"
+
+[dependencies]
+image = "*"
