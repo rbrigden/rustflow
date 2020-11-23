@@ -1,5 +1,6 @@
 [package]
 name = "rustflow"
+description = "Fast & accurate dense optical flow"
 version = "0.1.0"
 authors = ["Ryan Brigden <rpb@hey.com>"]
 edition = "2018"
