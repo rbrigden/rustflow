@@ -15,8 +15,11 @@ name = "rustflow"
 path = "lib/lib.rs"
 
 [build-dependencies]
-bindgen = "0.55.1"
+bindgen = "0.56.0"
 cc = "1.0.65"
 
 [dependencies]
 image = "0.23.12"
+clap = "2.33.3"
+itertools = "0.9.0"
+
