@@ -5,9 +5,9 @@
 #include "stdio.h"
 #include <vector>
 
-// if the files are compiled in linux or mac os then uncomment the following line, otherwise comment it if you compile using visual studio in windows
+#ifndef _MSC_VER
 #define _LINUX_MAC
-// #define _OPENCV
+#endif
 
 template <class T>
 void _Release1DBuffer(T* pBuffer)
